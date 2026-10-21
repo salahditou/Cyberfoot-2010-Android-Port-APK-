@@ -1,1 +1,0 @@
-assets/fonts: fuentes Tahoma de Wine (LGPL 2.1 o posterior). Los datos e imágenes del juego pertenecen a sus autores (BF Game); uso personal.
