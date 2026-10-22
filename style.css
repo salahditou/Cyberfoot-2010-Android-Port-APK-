@@ -1,41 +1,201 @@
-@font-face{font-family:WT;font-weight:normal;src:url(assets/fonts/tahoma.ttf)}
-@font-face{font-family:WT;font-weight:bold;src:url(assets/fonts/tahomabd.ttf)}
-:root{
-/* ===== PANEL DE CONTROL DEL MENU =====
+@font-face {
+  font-family: WT;
+  font-weight: normal;
+  src: url(assets/fonts/tahoma.ttf);
+}
+@font-face {
+  font-family: WT;
+  font-weight: bold;
+  src: url(assets/fonts/tahomabd.ttf);
+}
+:root {
+  /* ===== PANEL DE CONTROL DEL MENU =====
    cqw = 1% del ancho de la pantalla de inicio (escala solo en cada celular).
    Tocá solo los valores de abajo. */
---fuente:Tahoma,sans-serif; /* para usar la Tahoma incluida en la app (igual en todos los celulares): WT,Tahoma,sans-serif */
-/* Texto "Seleccione su idioma" */
---lb-size:2.8cqw;--lb-color:#000;--lb-top:26.5cqw; /* el texto se centra solo sobre el recuadro */
-/* Recuadro del selector de idioma */
---sel-w:40cqw;--sel-h:6.6cqw;--sel-top:32.5cqw;--sel-right:6.2cqw;
---sel-size:3cqw;--sel-color:#000;--sel-bg:#fff;--sel-borde:#3c7fb1;--sel-flag:4.2cqw;
-/* Lista desplegable de idiomas */
---lista-fila:4.8cqw;--lista-sel-bg:#39f;--lista-sel-color:#fff;
-/* Texto de los botones Nueva partida / Continuar partida */
---btn-size:4cqw;--btn-peso:700;--btn-color:#fff;--btn-espaciado:.02em;
+  --fuente:
+    Tahoma, sans-serif; /* para usar la Tahoma incluida en la app (igual en todos los celulares): WT,Tahoma,sans-serif */
+  /* Texto "Seleccione su idioma" */
+  --lb-size: 2.8cqw;
+  --lb-color: #000;
+  --lb-top: 26.5cqw; /* el texto se centra solo sobre el recuadro */
+  /* Recuadro del selector de idioma */
+  --sel-w: 40cqw;
+  --sel-h: 6.6cqw;
+  --sel-top: 32.5cqw;
+  --sel-right: 6.2cqw;
+  --sel-size: 3cqw;
+  --sel-color: #000;
+  --sel-bg: #fff;
+  --sel-borde: #3c7fb1;
+  --sel-flag: 4.2cqw;
+  /* Lista desplegable de idiomas */
+  --lista-fila: 4.8cqw;
+  --lista-sel-bg: #39f;
+  --lista-sel-color: #fff;
+  /* Texto de los botones Nueva partida / Continuar partida */
+  --btn-size: 4cqw;
+  --btn-peso: 700;
+  --btn-color: #fff;
+  --btn-espaciado: 0.02em;
 }
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-html,body{margin:0;height:100%;background:#000}
-body{font:12px/1.35 WT,Tahoma,Verdana,"DejaVu Sans",sans-serif;overflow-x:hidden}
-body::before{content:"";position:fixed;inset:0;background:url(assets/inicio.jpg) center/cover;filter:blur(22px) brightness(.55);z-index:-1}
-#app{display:flex;justify-content:center}
-.stage{position:relative;width:min(100vw,calc(100dvh*853/1844));aspect-ratio:853/1844;background:#000 center/100% 100% no-repeat;container-type:inline-size;overflow:hidden}
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #000;
+}
+body {
+  font:
+    12px/1.35 WT,
+    Tahoma,
+    Verdana,
+    "DejaVu Sans",
+    sans-serif;
+  overflow-x: hidden;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url(assets/inicio.jpg) center/cover;
+  filter: blur(22px) brightness(0.55);
+  z-index: -1;
+}
+#app {
+  display: flex;
+  justify-content: center;
+}
+.stage {
+  position: relative;
+  width: min(100vw, calc(100dvh * 853 / 1844));
+  aspect-ratio: 853/1844;
+  background: #000 center/100% 100% no-repeat;
+  container-type: inline-size;
+  overflow: hidden;
+}
 /* --- texto de arriba --- */
-.lb{position:absolute;right:var(--sel-right);width:var(--sel-w);text-align:center;top:var(--lb-top);font-family:var(--fuente);font-size:var(--lb-size);color:var(--lb-color);white-space:nowrap}
+.lb {
+  position: absolute;
+  right: var(--sel-right);
+  width: var(--sel-w);
+  text-align: center;
+  top: var(--lb-top);
+  font-family: var(--fuente);
+  font-size: var(--lb-size);
+  color: var(--lb-color);
+  white-space: nowrap;
+}
 /* --- selector de idioma (recuadro cerrado) --- */
-.cbx{position:absolute;right:var(--sel-right);top:var(--sel-top);width:var(--sel-w);z-index:5}
-.cb{display:flex;align-items:center;gap:1.4cqw;width:100%;height:var(--sel-h);padding:0 .8cqw;background:var(--sel-bg);border:.3cqw solid var(--sel-borde);border-radius:.5cqw;font-family:var(--fuente);font-size:var(--sel-size);color:var(--sel-color);text-align:left}
-.cb span{flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-.cb i{flex:none;width:calc(var(--sel-h) - 1.4cqw);height:calc(var(--sel-h) - 1.4cqw);border:.25cqw solid #7fb4e0;border-radius:.5cqw;background:linear-gradient(#fff,#e2edf9);position:relative}
-.cb i::after{content:"";position:absolute;left:50%;top:50%;width:1.3cqw;height:1.3cqw;margin:-1cqw 0 0 -.65cqw;border:solid var(--sel-borde);border-width:0 .4cqw .4cqw 0;transform:rotate(45deg)}
+.cbx {
+  position: absolute;
+  right: var(--sel-right);
+  top: var(--sel-top);
+  width: var(--sel-w);
+  z-index: 5;
+}
+.cb {
+  display: flex;
+  align-items: center;
+  gap: 1.4cqw;
+  width: 100%;
+  height: var(--sel-h);
+  padding: 0 0.8cqw;
+  background: var(--sel-bg);
+  border: 0.3cqw solid var(--sel-borde);
+  border-radius: 0.5cqw;
+  font-family: var(--fuente);
+  font-size: var(--sel-size);
+  color: var(--sel-color);
+  text-align: left;
+}
+.cb span {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cb i {
+  flex: none;
+  width: calc(var(--sel-h) - 1.4cqw);
+  height: calc(var(--sel-h) - 1.4cqw);
+  border: 0.25cqw solid #7fb4e0;
+  border-radius: 0.5cqw;
+  background: linear-gradient(#fff, #e2edf9);
+  position: relative;
+}
+.cb i::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1.3cqw;
+  height: 1.3cqw;
+  margin: -1cqw 0 0 -0.65cqw;
+  border: solid var(--sel-borde);
+  border-width: 0 0.4cqw 0.4cqw 0;
+  transform: rotate(45deg);
+}
 /* --- lista desplegable --- */
-.dd{position:absolute;left:0;right:0;top:100%;background:#fff;border:.25cqw solid #666;box-shadow:0 1cqw 3cqw rgba(0,0,0,.5);max-height:90cqw;overflow:auto}
-.dd[hidden]{display:none}
-.it{display:flex;align-items:center;gap:1.4cqw;height:var(--lista-fila);padding:0 .8cqw;font-family:var(--fuente);font-size:var(--sel-size);color:var(--sel-color)}
-.it.on{background:var(--lista-sel-bg);color:var(--lista-sel-color)}
-.fl{flex:none;width:var(--sel-flag);height:var(--sel-flag);image-rendering:pixelated}
+.dd {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background: #fff;
+  border: 0.25cqw solid #666;
+  box-shadow: 0 1cqw 3cqw rgba(0, 0, 0, 0.5);
+  max-height: 90cqw;
+  overflow: auto;
+}
+.dd[hidden] {
+  display: none;
+}
+.it {
+  display: flex;
+  align-items: center;
+  gap: 1.4cqw;
+  height: var(--lista-fila);
+  padding: 0 0.8cqw;
+  font-family: var(--fuente);
+  font-size: var(--sel-size);
+  color: var(--sel-color);
+}
+.it.on {
+  background: var(--lista-sel-bg);
+  color: var(--lista-sel-color);
+}
+.fl {
+  flex: none;
+  width: var(--sel-flag);
+  height: var(--sel-flag);
+  image-rendering: pixelated;
+}
 /* --- botones: solo el texto, el recuadro ya esta dibujado en la imagen --- */
-.gb{position:absolute;left:22.27cqw;width:55.45cqw;height:9.14cqw;background:none;border:0;padding:0;outline:none;user-select:none;-webkit-user-select:none;color:var(--btn-color);font-family:var(--fuente);font-size:var(--btn-size);font-weight:var(--btn-peso);letter-spacing:var(--btn-espaciado);
-/* Contorno y sombra del texto */
-text-shadow:-1px -1px 0 #222,1px -1px 0 #222,-1px 1px 0 #222,1px 1px 0 #222,0 2px 3px rgba(0,0,0,.95)}
+.gb {
+  position: absolute;
+  left: 22.27cqw;
+  width: 55.45cqw;
+  height: 9.14cqw;
+  background: none;
+  border: 0;
+  padding: 0;
+  outline: none;
+  user-select: none;
+  -webkit-user-select: none;
+  color: var(--btn-color);
+  font-family: var(--fuente);
+  font-size: var(--btn-size);
+  font-weight: var(--btn-peso);
+  letter-spacing: var(--btn-espaciado);
+  /* Contorno y sombra del texto */
+  text-shadow:
+    -1px -1px 0 #222,
+    1px -1px 0 #222,
+    -1px 1px 0 #222,
+    1px 1px 0 #222,
+    0 2px 3px rgba(0, 0, 0, 0.95);
+}
