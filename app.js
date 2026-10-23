@@ -19,6 +19,9 @@
     "160",
     "192",
   ];
+  var S = "menu",
+    OP = "",
+    G = { liga: "11", nac: "11", nombre: "" };
   try {
     L = localStorage.getItem("cf_lang") || L;
   } catch (e) {}
@@ -44,7 +47,7 @@
       '<img class="fl" alt="" src="' + U("assets/flags/" + id + ".png") + '">'
     );
   }
-  function draw() {
+  function drawMenu() {
     var it = ORD.map(function (i) {
       return (
         '<div class="it' +
@@ -92,12 +95,141 @@
         O = false;
         draw();
       };
+    A.querySelector('[data-a="n"]').onclick = function () {
+      S = "nueva";
+      O = false;
+      OP = "";
+      draw();
+    };
+  }
+  function drawNueva() {
+    var P = D.paises[L] || D.paises["65"];
+    var ligas = D.ligas.slice().sort(function (a, b) {
+      return P[a.id].localeCompare(P[b.id]);
+    });
+    var liga =
+      ligas.filter(function (g) {
+        return g.id === G.liga;
+      })[0] || ligas[0];
+    var ORDS = ["", "primera", "segunda", "tercera", "cuarta"];
+    function info(n) {
+      return n === 4
+        ? T("np_liga4")
+        : n === 1
+          ? T("np_liga1")
+          : T("np_ligaN").replace("{n}", n);
+    }
+    function nota(n) {
+      return n === 1 ? T("np_nota1") : T("np_nota").replace("{d}", ORDS[n]);
+    }
+    function fila(g) {
+      return F(g.id) + "<span>" + E(P[g.id]) + "</span>";
+    }
+    function combo(id) {
+      var actual =
+        ligas.filter(function (g) {
+          return g.id === G[id];
+        })[0] || ligas[0];
+      var items = ligas
+        .map(function (g) {
+          return (
+            '<div class="it" data-' +
+            id +
+            '="' +
+            g.id +
+            '">' +
+            fila(g) +
+            "</div>"
+          );
+        })
+        .join("");
+      return (
+        '<div class="cbx' +
+        (OP === id ? " abierto" : "") +
+        '"><button class="cb" type="button" data-cb="' +
+        id +
+        '">' +
+        fila(actual) +
+        '<i></i></button><div class="dd"' +
+        (OP === id ? "" : " hidden") +
+        ">" +
+        items +
+        "</div></div>"
+      );
+    }
+    A.innerHTML =
+      '<div class="np"><div class="np-in"><div class="np-panel"><h1 class="np-titulo">' +
+      E(T("np_titulo")) +
+      '</h1><h2 class="np-seccion">' +
+      E(T("np_clubes")) +
+      '</h2><p class="np-label">' +
+      E(T("np_liga")) +
+      "</p>" +
+      combo("liga") +
+      '<p class="np-info">' +
+      E(info(liga.div)) +
+      '</p><p class="np-nota">' +
+      E(nota(liga.div)) +
+      '</p><h2 class="np-seccion">' +
+      E(T("coach")) +
+      '</h2><p class="np-label">' +
+      E(T("np_nac")) +
+      "</p>" +
+      combo("nac") +
+      '</div><label class="np-label" for="nombre">' +
+      E(T("np_nombre")) +
+      '</label><input class="np-input" id="nombre" maxlength="25" autocomplete="off" value="' +
+      E(G.nombre) +
+      '" /><div class="np-botones"><button class="np-btn" data-a="v">' +
+      E(T("np_volver")) +
+      '</button><button class="np-btn" id="empezar" data-a="e"' +
+      (G.nombre.trim() ? "" : " disabled") +
+      ">" +
+      E(T("np_empezar")) +
+      "</button></div></div></div>";
+    var c = A.querySelectorAll("[data-cb]");
+    for (var i = 0; i < c.length; i++)
+      c[i].onclick = function (e) {
+        e.stopPropagation();
+        var id = this.getAttribute("data-cb");
+        OP = OP === id ? "" : id;
+        draw();
+      };
+    ["liga", "nac"].forEach(function (id) {
+      var f = A.querySelectorAll("[data-" + id + "]");
+      for (var j = 0; j < f.length; j++)
+        f[j].onclick = function (e) {
+          e.stopPropagation();
+          G[id] = this.getAttribute("data-" + id);
+          OP = "";
+          draw();
+        };
+    });
+    document.getElementById("nombre").oninput = function () {
+      G.nombre = this.value;
+      document.getElementById("empezar").disabled = !G.nombre.trim();
+    };
+    A.querySelector('[data-a="v"]').onclick = function () {
+      S = "menu";
+      O = false;
+      OP = "";
+      draw();
+    };
+  }
+  function draw() {
+    document.body.className = S;
+    if (S === "nueva") drawNueva();
+    else drawMenu();
   }
   document.addEventListener("click", function () {
     var d = document.getElementById("dd");
     if (O && d) {
       O = false;
       d.hidden = true;
+    }
+    if (OP) {
+      OP = "";
+      draw();
     }
   });
   draw();

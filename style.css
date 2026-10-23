@@ -184,3 +184,118 @@ body::before {
     2px 2px 0 #000000,
     0 4px 5px rgba(0, 0, 0, 0.95);
 }
+
+/* ===== Nueva partida ===== */
+:root {
+  --np-panel-arriba: #01840e;
+  --np-panel-medio: #016d0f;
+  --np-panel-abajo: #01390f;
+  --np-amarillo: #ff0;
+  --np-titulo: 4.2cqw;
+  --np-texto: 2.6cqw;
+  --np-ctrl: 6cqw;
+  --np-btn-texto: #006400;
+  --np-btn-off: #a7a3b5;
+  --np-input-bg: #479133;
+}
+.np {
+  --sel-h: var(--np-ctrl);
+  --sel-size: var(--np-texto);
+  --sel-flag: 3.4cqw;
+  --lista-fila: 5cqw;
+  position: relative;
+  width: min(100vw, calc(100dvh * 853 / 1844));
+  aspect-ratio: 853 / 1844;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  container-type: inline-size;
+  background: #479133 url("assets/f01.jpg") 0 0 / 100% auto repeat-y;
+}
+.np-in {
+  padding: 0 5cqw;
+  font-family: var(--fuente);
+  font-size: var(--np-texto);
+  color: #fff;
+  text-shadow: 0.2cqw 0.2cqw 0 #000;
+}
+.np-in > .np-label {
+  margin: 3cqw 0 1cqw;
+}
+.np-panel {
+  padding: 3.4cqw 4cqw 3.6cqw;
+  border-radius: 2cqw;
+  background: linear-gradient(
+    var(--np-panel-arriba),
+    var(--np-panel-medio) 50%,
+    var(--np-panel-abajo)
+  );
+}
+.np-titulo {
+  margin: 0 0 3cqw;
+  font-size: var(--np-titulo);
+  font-weight: 400;
+  color: var(--np-amarillo);
+}
+.np-seccion {
+  margin: 3cqw 0 2cqw;
+  padding-bottom: 0.3cqw;
+  border-bottom: 1px solid #c0c0c0;
+  font-size: var(--np-texto);
+  font-weight: 400;
+  color: var(--np-amarillo);
+}
+.np-label {
+  margin: 0 0 1cqw;
+  color: var(--np-amarillo);
+}
+.np .cbx {
+  position: relative;
+  top: auto;
+  right: auto;
+  width: 100%;
+  text-shadow: none;
+}
+.np .cbx.abierto {
+  z-index: 9;
+}
+.np-info {
+  margin: 1.8cqw 0 0;
+}
+.np-nota {
+  margin: 1cqw 0 0;
+  font-size: 2.3cqw;
+  color: var(--np-amarillo);
+}
+.np-input {
+  width: 100%;
+  height: var(--np-ctrl);
+  margin-bottom: 3cqw;
+  padding: 0 2cqw;
+  background: var(--np-input-bg);
+  border: 1px solid #1d5a14;
+  color: var(--np-amarillo);
+  font: inherit;
+  outline: none;
+  text-shadow: none;
+}
+.np-botones {
+  display: flex;
+  gap: 2.4cqw;
+}
+.np-btn {
+  flex: 1;
+  height: var(--np-ctrl);
+  background: #fdfdfd;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.8cqw;
+  color: var(--np-btn-texto);
+  font-family: var(--fuente);
+  font-size: var(--np-texto);
+  text-shadow: none;
+}
+.np-btn:disabled {
+  color: var(--np-btn-off);
+}
