@@ -39,7 +39,7 @@ window.__CLUBES["12"] = [
   },
   {
     i: "pyunik",
-    n: "Pyunik ",
+    n: "Pyunik",
     c: "Football Club  Pyunik ",
     e: "Republican ",
     t: "Vardan Minasyan",
@@ -73,7 +73,7 @@ window.__CLUBES["12"] = [
   },
   {
     i: "ulisses",
-    n: "Ulisses ",
+    n: "Ulisses",
     c: "Ulisses Football Club",
     e: "Hrazdan Olympic",
     t: "Sevada Arzumanyan ",
@@ -182,7 +182,7 @@ window.__CLUBES["12"] = [
   },
   {
     i: "gandzasar",
-    n: "Gandzasar ",
+    n: "Gandzasar",
     c: "FC Gandzasar Kapan",
     e: "Lernagorts ",
     t: "Samvel Petrosyan",
@@ -317,7 +317,7 @@ window.__CLUBES["12"] = [
   },
   {
     i: "shengavit",
-    n: "Shengavit ",
+    n: "Shengavit",
     c: "Shengavit Football Club",
     e: "Hanrapetakan ",
     t: "Nedelco Matusev ",
@@ -467,7 +467,7 @@ window.__CLUBES["12"] = [
   },
   {
     i: "ararat",
-    n: "Ararat ",
+    n: "Ararat",
     c: "Football Club Ararat ",
     e: "Hrazdan ",
     t: "Arkadi Andreasyan",
@@ -497,7 +497,7 @@ window.__CLUBES["12"] = [
   },
   {
     i: "dinamo_zenit",
-    n: "Dinamo Zenit ",
+    n: "Dinamo Zenit",
     c: "Foots Club Dinamo Zenit ",
     e: "Hanrapetakan ",
     t: "Kim Splidsboel ",
@@ -583,7 +583,7 @@ window.__CLUBES["12"] = [
   },
   {
     i: "mika",
-    n: "Mika ",
+    n: "Mika",
     c: "Football Club Mika",
     e: "Mika Arena",
     t: "Samvel Darbinyan",
@@ -642,7 +642,7 @@ window.__CLUBES["12"] = [
   },
   {
     i: "lernayin_artsakh",
-    n: "Lernayin Artsakh ",
+    n: "Lernayin Artsakh",
     c: "FC Lernayin Artsakh Goris",
     e: "Goris City ",
     t: "Garnik Khachatryan",

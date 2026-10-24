@@ -290,7 +290,7 @@ window.__CLUBES["36"] = [
   },
   {
     i: "aigleroyal_cam",
-    n: "Aigle Royal ",
+    n: "Aigle Royal",
     c: "Aigle Royal Menoua",
     e: "Stade Municipal Dschang",
     t: "Kasack macuin",
@@ -422,7 +422,7 @@ window.__CLUBES["36"] = [
   },
   {
     i: "danay",
-    n: "Danay ",
+    n: "Danay",
     c: "Danay FC ",
     e: "Municipal de Yagoua",
     t: "agoua",
@@ -485,7 +485,7 @@ window.__CLUBES["36"] = [
   },
   {
     i: "panteri",
-    n: "Panthére ",
+    n: "Panthére",
     c: "Panthére FC",
     e: "Municipal Bangangté",
     t: "Charles Cáden",

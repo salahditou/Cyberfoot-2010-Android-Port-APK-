@@ -2,7 +2,7 @@ window.__CLUBES = window.__CLUBES || {};
 window.__CLUBES["93"] = [
   {
     i: "k1_united_iso",
-    n: "K1 United ",
+    n: "K1 United",
     c: "K1 United FC",
     e: "Lawson Tama",
     t: "Richard Ruhasia",
@@ -98,7 +98,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "banikabulls_iso",
-    n: "Banika Bulls ",
+    n: "Banika Bulls",
     c: "Banika Bulls FC",
     e: "Lawson Tama",
     t: "Francis Bule",
@@ -189,7 +189,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "uncles_iso",
-    n: "Uncles ",
+    n: "Uncles",
     c: "Uncles Football Club ",
     e: "Lawson Tama",
     t: "Timothy Araha",
@@ -217,7 +217,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "fasi_roos_iso",
-    n: "Fasi Roos ",
+    n: "Fasi Roos",
     c: "Fasi Roos FC ",
     e: "Lawson Tama",
     t: "Jeffrey Lani",
@@ -247,7 +247,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "fk_kokohale_fc_iso",
-    n: "FK Kokohale FC ",
+    n: "FK Kokohale FC",
     c: "FK Kokohale FC ",
     e: "Lawson Tama",
     t: "Jeffrey Wale",
@@ -336,7 +336,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "rangers_sol",
-    n: "Rangers ",
+    n: "Rangers",
     c: "Rangers Football Club",
     e: "Lawson Tama",
     t: "Matai Vave",
@@ -366,7 +366,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "sunbeam_iso",
-    n: "Sunbeam ",
+    n: "Sunbeam",
     c: "Sunbeam FC",
     e: "Lawson Tama",
     t: "Leonard Misibini",
@@ -395,7 +395,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "iceland_rovers_iso",
-    n: "Iceland Rovers ",
+    n: "Iceland Rovers",
     c: "Iceland Rovers FC ",
     e: "Lawson Tama",
     t: "Pressly Wayne",
@@ -425,7 +425,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "lagoon_brothers_sol",
-    n: "Lagoon Brothers FC ",
+    n: "Lagoon Brothers FC",
     c: "Lagoon Brothers FC ",
     e: "Lawson Tama",
     t: "Shadrack Taloga",
@@ -453,7 +453,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "landowners_sol",
-    n: "Landowners ",
+    n: "Landowners",
     c: "Landowners FC ",
     e: "Lawson Tama",
     t: "Cecil Taloi",
@@ -483,7 +483,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "vatu_iso",
-    n: "Vatu FC ",
+    n: "Vatu FC",
     c: "Vatu FC ",
     e: "Lawson Tama",
     t: "Steve Paia",
@@ -513,7 +513,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "central_realas_iso",
-    n: "Central Realas ",
+    n: "Central Realas",
     c: "Central Realas FC",
     e: "Lawson Tama",
     t: "Thomas Daudau",
@@ -543,7 +543,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "honiara_warriors_iso",
-    n: "Honiara Warriors ",
+    n: "Honiara Warriors",
     c: "Honiara Warriors FC",
     e: "Lawsom Tama",
     t: "Welchman Sakama",
@@ -600,7 +600,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "blue_boys_fc_iso",
-    n: "Blue Boys ",
+    n: "Blue Boys",
     c: "Blue Boys FC",
     e: "Lawson Tama",
     t: "Gibson Beui",
@@ -630,7 +630,7 @@ window.__CLUBES["93"] = [
   },
   {
     i: "lauru_fc",
-    n: "Lauru ",
+    n: "Lauru",
     c: "Lauru FC",
     e: "Lawson Tama",
     t: "Michael Joe",

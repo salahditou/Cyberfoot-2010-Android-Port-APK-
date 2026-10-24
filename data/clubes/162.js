@@ -1308,7 +1308,7 @@ window.__CLUBES["162"] = [
   },
   {
     i: "mordoviasaransk_rus",
-    n: "Mordovia ",
+    n: "Mordovia",
     c: "FC Mordovia Saransk",
     e: "Start ",
     t: "Fedor Shcherbachenko",
@@ -1428,7 +1428,7 @@ window.__CLUBES["162"] = [
   },
   {
     i: "chernomorets_rus",
-    n: "Chernomorets ",
+    n: "Chernomorets",
     c: "FC Chernomorets Novorossi",
     e: "Centralny",
     t: "Eduard Sarkisov",
@@ -1543,7 +1543,7 @@ window.__CLUBES["162"] = [
   },
   {
     i: "metallurglipetsk_rus",
-    n: "Metallurg Lipetsk ",
+    n: "Metallurg Lipetsk",
     c: "FC Metallurg Lipetsk ",
     e: "Metallurg Stadium",
     t: "Valeri Tretyakov",
@@ -1615,7 +1615,7 @@ window.__CLUBES["162"] = [
   },
   {
     i: "nosta_rus",
-    n: "Nosta ",
+    n: "Nosta",
     c: "FC Nosta Novotroitsk",
     e: "Metallurg",
     t: "Gennadiy Gridin",
@@ -1650,7 +1650,7 @@ window.__CLUBES["162"] = [
   },
   {
     i: "torpedomoscow_rus",
-    n: "Torpedo ",
+    n: "Torpedo",
     c: "FC Torpedo Moscow",
     e: "Luzhniki",
     t: "Sergey Pavlov",

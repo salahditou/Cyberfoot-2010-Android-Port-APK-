@@ -106,7 +106,7 @@ window.__CLUBES["43"] = [
   },
   {
     i: "shandongluneng",
-    n: "Shandong Luneng ",
+    n: "Shandong Luneng",
     c: "Shandong Luneng Taishan",
     e: "Shandong Stadium",
     t: "Branko Ivankovic",

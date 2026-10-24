@@ -180,7 +180,7 @@ window.__CLUBES["88"] = [
   },
   {
     i: "mtk_hun",
-    n: "MTK ",
+    n: "MTK",
     c: "Magyar Testgyakorlok Köre",
     e: "Hidegkúti Nándor ",
     t: "Jozsef Garami",
@@ -537,7 +537,7 @@ window.__CLUBES["88"] = [
   },
   {
     i: "gyori_hun",
-    n: "Gyori ETO ",
+    n: "Gyori ETO",
     c: "Gyori ETO FC",
     e: "Eto Park",
     t: "Atilla Pinter",

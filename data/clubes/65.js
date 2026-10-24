@@ -178,7 +178,7 @@ window.__CLUBES["65"] = [
   },
   {
     i: "atleticomadrid_esp",
-    n: "Atlético Madri ",
+    n: "Atlético Madri",
     c: "Club Atlético de Madrid ",
     e: "Vicente Calderón",
     t: "Quique Flores",
@@ -1014,7 +1014,7 @@ window.__CLUBES["65"] = [
   },
   {
     i: "huelva_esp",
-    n: "Huelva ",
+    n: "Huelva",
     c: "Recreativo de Huelva ",
     e: "Nuevo Colombino",
     t: "Raúl Agné",

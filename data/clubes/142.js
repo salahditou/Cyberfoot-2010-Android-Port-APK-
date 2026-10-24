@@ -146,7 +146,7 @@ window.__CLUBES["142"] = [
   },
   {
     i: "tromso_nor",
-    n: "Tromsø ",
+    n: "Tromsø",
     c: "Tromsø IL",
     e: "Alfheim Stadion",
     t: "P. Högmo",
@@ -184,7 +184,7 @@ window.__CLUBES["142"] = [
   },
   {
     i: "valerenga_nor",
-    n: "Vålerenga ",
+    n: "Vålerenga",
     c: "Vålerenga Fotball IF",
     e: "Ullevaal Stadion",
     t: "M. Andresen",
@@ -327,15 +327,15 @@ window.__CLUBES["142"] = [
   },
   {
     i: "stromsgodset_nor",
-    n: "Strømsgodset ",
+    n: "Strømsgodset",
     c: "Strømsgodset Idrettsforen",
     e: "Marienlyst Stadion",
     t: "Ronny Deila",
     p: 142,
     f: 12,
     k: ["#800000", "#0000FF", "#FF0000"],
-    s: 1,
-    m: 1,
+    s: 0,
+    m: 0,
     d: 1,
     j: [
       ["L. Stubhaug", 142, 19, 0, 1, 1, 2, 0],
@@ -584,7 +584,7 @@ window.__CLUBES["142"] = [
   },
   {
     i: "sarpsborg_nor",
-    n: "Sarpsborg ",
+    n: "Sarpsborg",
     c: "FotballKlubben Sparta Sar",
     e: "Sarpsborg Stadion",
     t: "Haftor Joenssonsgata",
@@ -624,7 +624,7 @@ window.__CLUBES["142"] = [
   },
   {
     i: "bryne_nor",
-    n: "Bryne ",
+    n: "Bryne",
     c: "Bryne  FotballKlub",
     e: "Bryne Stadion",
     t: "Postboks",
@@ -725,7 +725,7 @@ window.__CLUBES["142"] = [
   },
   {
     i: "tromsdalen_nor",
-    n: "Tromsdalen ",
+    n: "Tromsdalen",
     c: "Tromsdalen Ungdoms Idrett",
     e: "Tromsdalen Kunstgress",
     t: "Elvestrandvej",

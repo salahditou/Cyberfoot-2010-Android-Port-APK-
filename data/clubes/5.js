@@ -76,7 +76,7 @@ window.__CLUBES["5"] = [
   },
   {
     i: "santosfc_ang",
-    n: "Santos ",
+    n: "Santos",
     c: "Santos F.C Angola",
     e: "Do Santos",
     t: "Mário Calado",
@@ -112,7 +112,7 @@ window.__CLUBES["5"] = [
   },
   {
     i: "asa_ang",
-    n: "ASA ",
+    n: "ASA",
     c: "Atlético Sport Aviação",
     e: "Joaquim Dinis",
     t: "José Dinis",
@@ -336,7 +336,7 @@ window.__CLUBES["5"] = [
   },
   {
     i: "onzebravos_ang",
-    n: "Onze Bravos ",
+    n: "Onze Bravos",
     c: "F.C Onze Bravos do Maqui",
     e: "Do Luena",
     t: "João Machado",

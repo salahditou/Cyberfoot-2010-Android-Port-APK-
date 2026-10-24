@@ -42,7 +42,7 @@ window.__CLUBES["57"] = [
   },
   {
     i: "zamalek_egi",
-    n: "Zamalek ",
+    n: "Zamalek",
     c: "Zamalek Sporting Club",
     e: "Cairo International",
     t: "Hossam Hassan",
@@ -157,7 +157,7 @@ window.__CLUBES["57"] = [
   },
   {
     i: "ismaily_egi",
-    n: "Ismaily ",
+    n: "Ismaily",
     c: "Ismaily Sporting Club",
     e: "Ismailia Stadium",
     t: "Emad Soliman",
@@ -272,7 +272,7 @@ window.__CLUBES["57"] = [
   },
   {
     i: "enppi_egi",
-    n: "ENPPI ",
+    n: "ENPPI",
     c: "ENPPI Club",
     e: "Cairo Military Academy Stadium",
     t: "Stoycho Mladenov",
@@ -389,7 +389,7 @@ window.__CLUBES["57"] = [
   },
   {
     i: "elmasry_egi",
-    n: "El Masry ",
+    n: "El Masry",
     c: "El Masry Club",
     e: "Port Said Stadium",
     t: "Theo Bücker",
@@ -464,7 +464,7 @@ window.__CLUBES["57"] = [
   },
   {
     i: "gouna_egi",
-    n: "El Gouna ",
+    n: "El Gouna",
     c: "El Gouna Football Club",
     e: "El Gouna Stadium",
     t: "Ismail Youssef",

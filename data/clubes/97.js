@@ -1061,8 +1061,8 @@ window.__CLUBES["97"] = [
     p: 97,
     f: 16,
     k: ["#FFFFFF", "#FF0000", "#FF0000"],
-    s: 1,
-    m: 1,
+    s: 0,
+    m: 0,
     d: 3,
     j: [
       ["Lee Camp", 97, 25, 0, 1, 1, 2, 0],
@@ -1711,7 +1711,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "carlisle_united_ing",
-    n: "Carlisle United ",
+    n: "Carlisle United",
     c: "Carlisle United FC",
     e: "Brunton Park",
     t: "Greg Abbott",
@@ -1783,7 +1783,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "colchester_ing",
-    n: "Colchester ",
+    n: "Colchester",
     c: "Colchester United Footbal",
     e: "Weston Homes Community Stadium",
     t: "Peter Heard",
@@ -2010,7 +2010,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "oldham_athletic_ing",
-    n: "Oldham Athletic ",
+    n: "Oldham Athletic",
     c: "Oldham Athletic Football ",
     e: "Boundary Park",
     t: "Simon Blitz",
@@ -2274,7 +2274,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "yeovil_town_ing",
-    n: "Yeovil Town ",
+    n: "Yeovil Town",
     c: "Yeovil Town Football Club",
     e: "Huish Park",
     t: "Terry Skiverton",
@@ -2305,7 +2305,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "accringtonstanley_ing",
-    n: "Accrington Stanley ",
+    n: "Accrington Stanley",
     c: "Accrington Stanley Footba",
     e: "Fraser Eagle Stadium",
     t: "John Coleman",
@@ -2336,7 +2336,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "barnet_ing",
-    n: "Barnet ",
+    n: "Barnet",
     c: "Barnet Football Club",
     e: "Underhill Stadium",
     t: "Mark Stimson",
@@ -2429,7 +2429,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "chesterfield_ing",
-    n: "Chesterfield ",
+    n: "Chesterfield",
     c: "Chesterfield Football Clu",
     e: "Recreation Ground",
     t: "John Sheridan",
@@ -2584,7 +2584,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "macclesfield_town_ing",
-    n: "Macclesfield Town ",
+    n: "Macclesfield Town",
     c: "Macclesfield Town Footbal",
     e: "Moss Rose",
     t: "Mike Rance",
@@ -2707,7 +2707,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "oxford_united",
-    n: "Oxford United ",
+    n: "Oxford United",
     c: "Oxford United Football Cl",
     e: "Kassam Stadium",
     t: "Chris Wilder",
@@ -2805,7 +2805,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "rotherham_ing",
-    n: "Rotherham ",
+    n: "Rotherham",
     c: "Rotherham United Football",
     e: "Millmoor Ground",
     t: "Ronnie Moore",
@@ -2836,7 +2836,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "shrewsbury_town_ing",
-    n: "Shrewsbury Town ",
+    n: "Shrewsbury Town",
     c: "Shrewsbury Town Football ",
     e: "Prostar Stadium (New Meadow)",
     t: "Graham Turner",
@@ -2966,7 +2966,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "torquay_ing",
-    n: "Torquay United ",
+    n: "Torquay United",
     c: "Torquay United Football C",
     e: "Plainmoor",
     t: "Paul Buckle",
@@ -3062,7 +3062,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "crawley_town_ing",
-    n: "Crawley Town ",
+    n: "Crawley Town",
     c: "Crawley Town Football Clu",
     e: "Broadfield Stadium",
     t: "Victor Marley",
@@ -3093,7 +3093,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "luton_town_ing",
-    n: "Luton Town ",
+    n: "Luton Town",
     c: "Luton Town Football Club",
     e: "Kenilworth Road Stadium",
     t: "David Pinkney",
@@ -3162,7 +3162,7 @@ window.__CLUBES["97"] = [
   },
   {
     i: "tamworth_ing",
-    n: "Tamworth ",
+    n: "Tamworth",
     c: "Tamworth Football Club",
     e: "The Lamb Ground",
     t: "Len Gendle",

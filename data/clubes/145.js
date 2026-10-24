@@ -2,7 +2,7 @@ window.__CLUBES = window.__CLUBES || {};
 window.__CLUBES["145"] = [
   {
     i: "cardiff_wls",
-    n: "Cardiff City ",
+    n: "Cardiff City",
     c: "Cardiff City Football Clu",
     e: "Ninian Park",
     t: "Dave Jones",
@@ -38,7 +38,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "llanelli_wls",
-    n: "Llanelli Football ",
+    n: "Llanelli Football",
     c: "Llanelli Football Club",
     e: "Stebonheath Park",
     t: "Andy Legg",
@@ -110,7 +110,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "thenewsaints_wls",
-    n: "The New Saints ",
+    n: "The New Saints",
     c: "The New Saints FC",
     e: "Park Hall",
     t: "Mike Davies",
@@ -148,7 +148,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "aberystwyth_wls",
-    n: "Aberystwyth Town ",
+    n: "Aberystwyth Town",
     c: "Aberystwyth Town FC",
     e: "Park Avenue",
     t: "Alan Morgan",
@@ -180,7 +180,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "bangor_wls",
-    n: "Bangor City ",
+    n: "Bangor City",
     c: "Bangor City Football Club",
     e: "Farrar Road",
     t: "Neville Powell",
@@ -214,7 +214,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "carmarthen_wls",
-    n: "Carmarthen Town ",
+    n: "Carmarthen Town",
     c: "Carmarthen Town AFC",
     e: "Richmond Park",
     t: "Tomi Morgan",
@@ -249,7 +249,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "haverfordwest_wls",
-    n: "Haverfordwest ",
+    n: "Haverfordwest",
     c: "Haverfordwest County AFC",
     e: "Bridge Meadow Stadium",
     t: "Derek Brazil",
@@ -323,7 +323,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "porttalbot_wls",
-    n: "Port Talbot Town ",
+    n: "Port Talbot Town",
     c: "Port Talbot Town FC",
     e: "Victoria Road",
     t: "Mark Jones",
@@ -362,7 +362,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "welshpool_wls",
-    n: "Welshpool Town ",
+    n: "Welshpool Town",
     c: "Welshpool Town FC",
     e: "Maes Dre Recreation",
     t: "Huw Griffiths",
@@ -399,7 +399,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "airbus_wls",
-    n: "Airbus UK ",
+    n: "Airbus UK",
     c: "Airbus UK Broughton FC",
     e: "8 Meadow Road",
     t: "Craig Harrison",
@@ -537,7 +537,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "porthmadog_wls",
-    n: "Porthmadog ",
+    n: "Porthmadog",
     c: "Clwb Porthmadog FC",
     e: "50 Maes Gerddi",
     t: "Steve Owen",
@@ -570,7 +570,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "prestatyn_wls",
-    n: "Prestatyn Town ",
+    n: "Prestatyn Town",
     c: "Prestatyn Town FC",
     e: "Bastion Gardens",
     t: "Neil Gibson",
@@ -643,7 +643,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "caernarfon_wls",
-    n: "Caernarfon Town ",
+    n: "Caernarfon Town",
     c: "Caernarfon Town FC",
     e: "The Oval",
     t: "David Rowe",
@@ -674,7 +674,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "connah_s_wls",
-    n: "Connah's Quay ",
+    n: "Connah's Quay",
     c: "Gap Connah's Quay FC",
     e: "Deeside Stadium",
     t: "Mark McGregor",
@@ -703,7 +703,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "llangefni_wls",
-    n: "Llangefni Town ",
+    n: "Llangefni Town",
     c: "Llangefni Town FC",
     e: "Bob Parry Field",
     t: "Gus Williams",
@@ -734,7 +734,7 @@ window.__CLUBES["145"] = [
   },
   {
     i: "buckley_wls",
-    n: "Buckley Town ",
+    n: "Buckley Town",
     c: "Buckley Town F.C",
     e: "Globe Way",
     t: "Sedgwick",

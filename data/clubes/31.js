@@ -333,7 +333,7 @@ window.__CLUBES["31"] = [
   },
   {
     i: "montana_bul",
-    n: "Montana ",
+    n: "Montana",
     c: "PFC Montana ",
     e: "Ogosta Stadium",
     t: "Dimitar Penevov",

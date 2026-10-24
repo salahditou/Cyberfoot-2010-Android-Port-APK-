@@ -2,7 +2,7 @@ window.__CLUBES = window.__CLUBES || {};
 window.__CLUBES["184"] = [
   {
     i: "aorai_tat",
-    n: "Aorai ",
+    n: "Aorai",
     c: "AS Aorai ",
     e: "Pater",
     t: "Marius Longue",
@@ -32,7 +32,7 @@ window.__CLUBES["184"] = [
   },
   {
     i: "u20_tat",
-    n: "Tahiti U-20 ",
+    n: "Tahiti U-20",
     c: "F. Tahiti Football U-20 ",
     e: "Hamuta",
     t: "Lionel Charbonnier",
@@ -182,7 +182,7 @@ window.__CLUBES["184"] = [
   },
   {
     i: "centralsport_tat",
-    n: "Central Sport ",
+    n: "Central Sport",
     c: "AS Central Sport ",
     e: "Pater",
     t: "Michel Wakaugene",
@@ -242,7 +242,7 @@ window.__CLUBES["184"] = [
   },
   {
     i: "excelsior_tat",
-    n: "Excelsior ",
+    n: "Excelsior",
     c: "AS Excelsior ",
     e: "Hamuta",
     t: "Noel Ouka",
@@ -272,7 +272,7 @@ window.__CLUBES["184"] = [
   },
   {
     i: "jeunes_tat",
-    n: "Jeunes Tahitiens ",
+    n: "Jeunes Tahitiens",
     c: "AS Jeunes Tahitiens ",
     e: "Hamuta",
     t: "Christopher Poatinda",
@@ -362,7 +362,7 @@ window.__CLUBES["184"] = [
   },
   {
     i: "vaiarii_tat",
-    n: "Vaiarii Nui ",
+    n: "Vaiarii Nui",
     c: "AS Vaiarii Nui ",
     e: "Pater",
     t: "Raphael Gowecce",
@@ -452,7 +452,7 @@ window.__CLUBES["184"] = [
   },
   {
     i: "vaiete_tat",
-    n: "Vaiete ",
+    n: "Vaiete",
     c: "AS Vaiete ",
     e: "Pater",
     t: "Paul Boanemoa",

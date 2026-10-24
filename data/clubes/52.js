@@ -2,7 +2,7 @@ window.__CLUBES = window.__CLUBES || {};
 window.__CLUBES["52"] = [
   {
     i: "dinamozagreb_cro",
-    n: "Dinamo Zagreb ",
+    n: "Dinamo Zagreb",
     c: "Nogometni Klub Dinamo Zag",
     e: "Maksimir",
     t: "Krunoslav Jurcic",

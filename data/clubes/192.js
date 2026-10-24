@@ -111,7 +111,7 @@ window.__CLUBES["192"] = [
   },
   {
     i: "galatasaray_tur",
-    n: "Galatasaray ",
+    n: "Galatasaray",
     c: "Galatasaray Spor Kulübü ",
     e: "Ali Sami Yen",
     t: "Gheorghe Hagi",
@@ -585,7 +585,7 @@ window.__CLUBES["192"] = [
   },
   {
     i: "trabzonpor_tur",
-    n: "Trabzonspor ",
+    n: "Trabzonspor",
     c: "Trabzonspor Kulübü",
     e: "Huseyin Avni Aker Stadium",
     t: "Hugo Broos",
@@ -661,7 +661,7 @@ window.__CLUBES["192"] = [
   },
   {
     i: "denizlispor_tur",
-    n: "Denizlispor ",
+    n: "Denizlispor",
     c: "Denizlispor Kulübü",
     e: "Atatürk Stadium",
     t: "Hamza Hamzaoglu",

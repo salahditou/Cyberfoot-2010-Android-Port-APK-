@@ -282,7 +282,7 @@ window.__CLUBES["26"] = [
   },
   {
     i: "1demaio_bol",
-    n: "1º de Mayo ",
+    n: "1º de Mayo",
     c: "Club Deport. 1° de Mayo ",
     e: "Yoyo Zambrano",
     t: "Domingo Sánchez",

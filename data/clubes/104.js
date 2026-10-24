@@ -2,7 +2,7 @@ window.__CLUBES = window.__CLUBES || {};
 window.__CLUBES["104"] = [
   {
     i: "inter_it",
-    n: "Internazionale ",
+    n: "Internazionale",
     c: "F.C. Internazionale Milan",
     e: "Giuseppe Meazza",
     t: "Rafael Benítez",
@@ -281,7 +281,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "bari_it",
-    n: "Bari ",
+    n: "Bari",
     c: "Associazione Sportiva Bar",
     e: "San Nicola",
     t: "G. Ventura",
@@ -465,7 +465,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "palermo_it",
-    n: "Palermo ",
+    n: "Palermo",
     c: "Unione Sportiva Palermo ",
     e: "La Favorita",
     t: "Delio Rossi",
@@ -718,7 +718,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "lecce_it",
-    n: "Lecce ",
+    n: "Lecce",
     c: "Unione Sportiva Lecce ",
     e: "Via Del Mare",
     t: "Luigi De Canio",
@@ -824,7 +824,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "livorno_it",
-    n: "Livorno ",
+    n: "Livorno",
     c: "Associazione S. Livorno",
     e: "Armando Picchi",
     t: "Serse Cosmi",
@@ -894,7 +894,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "siena_it",
-    n: "Siena  ",
+    n: "Siena",
     c: "Associazione Calcio Siena",
     e: "Artemio Franchi",
     t: "Alberto Malesani",
@@ -962,7 +962,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "albinoleffe_it",
-    n: "Albinoleffe ",
+    n: "Albinoleffe",
     c: "Sporting Club Albinoleffe",
     e: "Atleti Azzurri d'Italia",
     t: "Emiliano Mondonico",
@@ -1598,7 +1598,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "benevento_ita",
-    n: "Benevento ",
+    n: "Benevento",
     c: "Benevento Calcio SRL",
     e: "Santa Colomba",
     t: "Leonardo Acori",
@@ -1633,7 +1633,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "cavese_ita",
-    n: "Cavese ",
+    n: "Cavese",
     c: "Società Sportiva Cavese ",
     e: "Simonetta Lamberti",
     t: "Paolo Stringara",
@@ -1777,7 +1777,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "foggia_ita",
-    n: "Foggia ",
+    n: "Foggia",
     c: "Unione Sportiva Foggia ",
     e: "Pino Zaccheria",
     t: "Zdenek Zeman",
@@ -1812,7 +1812,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "foligno_ita",
-    n: "Foligno ",
+    n: "Foligno",
     c: "Foligno Calcio",
     e: "Enzo Blasone",
     t: "Pierpaolo Bisoli",
@@ -1846,7 +1846,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "gubbio_ita",
-    n: "Gubbio ",
+    n: "Gubbio",
     c: "Assoc. Sportiva 1910 SRL",
     e: "Pietro Barbetti",
     t: "Gigi Simoni",
@@ -1992,7 +1992,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "paganese_ita",
-    n: "Paganese ",
+    n: "Paganese",
     c: "Paganese Calcio 1926",
     e: "Marcello Torre",
     t: "Giuseppe Palumbo",
@@ -2062,7 +2062,7 @@ window.__CLUBES["104"] = [
   },
   {
     i: "sorrento_ita",
-    n: "Sorrento ",
+    n: "Sorrento",
     c: "Sorrento Calcio",
     e: "Italia di Sorrento",
     t: "Giovanni Simonelli",

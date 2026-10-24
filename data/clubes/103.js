@@ -286,7 +286,7 @@ window.__CLUBES["103"] = [
   },
   {
     i: "hapoel_haifa_isr",
-    n: "Hapoel Haifa ",
+    n: "Hapoel Haifa",
     c: "Hapoel Haifa Football Clu",
     e: "Kiryat Eliezer Stadium",
     t: "Nitzan Shirazi",
@@ -500,7 +500,7 @@ window.__CLUBES["103"] = [
   },
   {
     i: "hapoel_pt_isr",
-    n: "Hapoel Petah Tikva ",
+    n: "Hapoel Petah Tikva",
     c: "Hapoel PT. Football Club",
     e: "Ramat Gan Stadium",
     t: "Eli Mahpud",
@@ -540,7 +540,7 @@ window.__CLUBES["103"] = [
   },
   {
     i: "hapoel_kfar_saba_isr",
-    n: "Hapoel Kfar Saba ",
+    n: "Hapoel Kfar Saba",
     c: "Hapoel Kfar Saba FC",
     e: "Levita Stadium",
     t: "Tomer Kashtan",
@@ -576,7 +576,7 @@ window.__CLUBES["103"] = [
   },
   {
     i: "hapoel_ra_anana_isr",
-    n: "Hapoel Ra'anana ",
+    n: "Hapoel Ra'anana",
     c: "Hapoel Ra'anana AFC",
     e: "Levita Stadium",
     t: "Tzvika Tzemah",
@@ -645,7 +645,7 @@ window.__CLUBES["103"] = [
   },
   {
     i: "maccabi_ahi_isr",
-    n: "Maccabi Ahi Nazareth ",
+    n: "Maccabi Ahi Nazareth",
     c: "Maccabi Ahi Nazareth FC",
     e: "Ilut Stadium",
     t: "Shimon Edri",
@@ -681,7 +681,7 @@ window.__CLUBES["103"] = [
   },
   {
     i: "sektzia_nes_isr",
-    n: "Sektzia Nes Tziona ",
+    n: "Sektzia Nes Tziona",
     c: "Sektzia Nes Tziona FC",
     e: "Eilat Stadium",
     t: "Rafi Cohen",
@@ -714,7 +714,7 @@ window.__CLUBES["103"] = [
   },
   {
     i: "hapoel_jerusalem_isr",
-    n: "Hapoel Jerusalem ",
+    n: "Hapoel Jerusalem",
     c: "Hapoel Jerusalem FC",
     e: "Teddy Stadium",
     t: "Shay Aharon",
@@ -747,7 +747,7 @@ window.__CLUBES["103"] = [
   },
   {
     i: "ironi_rishon_isr",
-    n: "Ironi Rishon LeZion ",
+    n: "Ironi Rishon LeZion",
     c: "Hapoel IRL FC",
     e: "Israel Ben Yassuf",
     t: "Tarek Jassaboon",

@@ -339,8 +339,8 @@ window.__CLUBES["107"] = [
     p: 107,
     f: 16,
     k: ["#FFFFFF", "#0080FF", "#FF0000"],
-    s: 1,
-    m: 1,
+    s: 0,
+    m: 0,
     d: 1,
     j: [
       ["D. Jevric", 171, 36, 0, 0, 0, 1, 0],
@@ -1651,7 +1651,7 @@ window.__CLUBES["107"] = [
   },
   {
     i: "roasso_jap",
-    n: "Roasso Kumamoto ",
+    n: "Roasso Kumamoto",
     c: "Roasso Kumamoto ",
     e: "KK Wing",
     t: "Makoto Kitano",
@@ -2002,7 +2002,7 @@ window.__CLUBES["107"] = [
   },
   {
     i: "tochigi_jap",
-    n: "Tochigi ",
+    n: "Tochigi",
     c: "Tochigi Soccer Club",
     e: "Tochigi Green",
     t: "Hiroshi Matsuda",
@@ -2075,7 +2075,7 @@ window.__CLUBES["107"] = [
   },
   {
     i: "hondamotor_jap",
-    n: "Honda Motor ",
+    n: "Honda Motor",
     c: "Honda Motor Football Club",
     e: "Honda Miyakoda",
     t: "Masakazu Ishibashi",

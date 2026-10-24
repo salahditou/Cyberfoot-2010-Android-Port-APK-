@@ -42,7 +42,7 @@ window.__CLUBES["1"] = [
   },
   {
     i: "kaizer_chiefs_soa",
-    n: "Kaizer Chiefs ",
+    n: "Kaizer Chiefs",
     c: "Kaizer Chiefs FC",
     e: "Loftus Versfeld ",
     t: "Vladimir Vermezovic",
@@ -200,8 +200,8 @@ window.__CLUBES["1"] = [
     p: 1,
     f: 14,
     k: ["#FFFFFF", "#FF0000", "#FF0000"],
-    s: 1,
-    m: 1,
+    s: 0,
+    m: 0,
     d: 1,
     j: [
       ["Vonk", 1, 40, 0, 1, 3, 0, 0],
@@ -270,7 +270,7 @@ window.__CLUBES["1"] = [
   },
   {
     i: "bloemfonteinceltic_af",
-    n: "Bloemfontein Celtic ",
+    n: "Bloemfontein Celtic",
     c: "Bloemfontein Celtic FC",
     e: "Vodacom Park",
     t: "Owen Da Gama",
@@ -616,7 +616,7 @@ window.__CLUBES["1"] = [
   },
   {
     i: "blackaces_afs",
-    n: "Mpumalanga Black Aces ",
+    n: "Mpumalanga Black Aces",
     c: "Mpumalanga Black Aces FC",
     e: "Puma Stadium",
     t: "Sammy Troughton",

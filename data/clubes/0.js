@@ -2,7 +2,7 @@ window.__CLUBES = window.__CLUBES || {};
 window.__CLUBES["0"] = [
   {
     i: "kabul_bank_afg",
-    n: "Kabul Bank ",
+    n: "Kabul Bank",
     c: "Kabul Bank Football Club",
     e: "Kabul",
     t: "Karim Rashidi",
@@ -32,7 +32,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "maiwand_afg",
-    n: "Maiwand ",
+    n: "Maiwand",
     c: "Maiwand Sports Club",
     e: "Maiwand",
     t: "Sayed Zia Mazafari",
@@ -92,7 +92,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "pamir_kabul_afg",
-    n: "Pamir Kabul ",
+    n: "Pamir Kabul",
     c: "Pamir Kabul Football Club",
     e: "Central",
     t: "Billal Mohammadi",
@@ -152,7 +152,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "mahmoudiyeh_afg",
-    n: "Mahmoudiyeh ",
+    n: "Mahmoudiyeh",
     c: "Mahmoudiyeh Football Club",
     e: "Kabul",
     t: "Mustafa Hakimi",
@@ -182,7 +182,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "sarmi_yashy_afg",
-    n: "Sarmi Yashy ",
+    n: "Sarmi Yashy",
     c: "Sarmi Yashy Kabul F.C.",
     e: "Central",
     t: "Yousef Mohammadi",
@@ -212,7 +212,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "aieynda_afg",
-    n: "Aieynda ",
+    n: "Aieynda",
     c: "Aieynda Football Club",
     e: "Ghazi",
     t: "Sheershah Akbari ",
@@ -242,7 +242,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "ariana_afg",
-    n: "Ariana ",
+    n: "Ariana",
     c: "Ariana Kabul Foot. Club",
     e: "Ghazi",
     t: "Shujah Alkozai ",
@@ -273,7 +273,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "hakim_sanayi_afg",
-    n: "Hakim Sanayi ",
+    n: "Hakim Sanayi",
     c: "Hakim Sanayi Foot. Club",
     e: "Hakim Sanayi ",
     t: "Arian Nawabi",
@@ -363,7 +363,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "nijat_kabul_afg",
-    n: "Nijat Kabul ",
+    n: "Nijat Kabul",
     c: "Nijat Kabul Football Club",
     e: "National",
     t: "Hashmat Jamili ",
@@ -513,7 +513,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "javan_minan_afg",
-    n: "Javan Minan ",
+    n: "Javan Minan",
     c: "Javan Minan Kabul F.C.",
     e: "Minam",
     t: "Khalid Nayibkhail",
@@ -543,7 +543,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "shiva_kabul_afg",
-    n: "Shiva Kabul ",
+    n: "Shiva Kabul",
     c: "Shiva Kabul Football Club",
     e: "Ghazi",
     t: "Carlos Diaz",
@@ -573,7 +573,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "shooy_kabul_afg",
-    n: "Shooy Kabul ",
+    n: "Shooy Kabul",
     c: "Shooy Kabul Football Club",
     e: "Shooy",
     t: "Tareq Azim",
@@ -603,7 +603,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "slbaian_kabul_afg",
-    n: "Slbaian Kabul ",
+    n: "Slbaian Kabul",
     c: "Slbaian Kabul Foot. Club",
     e: "Melat",
     t: "Wali Popal",
@@ -633,7 +633,7 @@ window.__CLUBES["0"] = [
   },
   {
     i: "solh_kabul_afg",
-    n: "Solh Kabul ",
+    n: "Solh Kabul",
     c: "Solh Kabul Football Club",
     e: "Kabul",
     t: "Barak Alkozai",

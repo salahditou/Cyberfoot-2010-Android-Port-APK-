@@ -512,7 +512,7 @@ window.__CLUBES["150"] = [
   },
   {
     i: "12_de_octubre_par",
-    n: "12 de Octubre ",
+    n: "12 de Octubre",
     c: "12 de Octubre FC",
     e: "Juan Canuto Pettengill",
     t: "Saturnino Arrúa",
@@ -606,8 +606,8 @@ window.__CLUBES["150"] = [
     p: 150,
     f: 13,
     k: ["#FFFFFF", "#000000", "#FF0000"],
-    s: 1,
-    m: 1,
+    s: 0,
+    m: 0,
     d: 2,
     j: [
       ["Javier Garza", 150, 21, 0, 1, 2, 3, 1],

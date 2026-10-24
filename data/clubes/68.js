@@ -745,7 +745,7 @@ window.__CLUBES["68"] = [
   },
   {
     i: "kansascitywizards_eua",
-    n: "Kansas City ",
+    n: "Kansas City",
     c: "Kansas City Wizards",
     e: "CommunityAmerica Ballpark",
     t: "Peter Vermes",

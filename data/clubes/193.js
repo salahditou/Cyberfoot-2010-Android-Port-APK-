@@ -461,7 +461,7 @@ window.__CLUBES["193"] = [
   },
   {
     i: "chornomorets",
-    n: "Chornomorets ",
+    n: "Chornomorets",
     c: "FC Chornomorets Odessa",
     e: "Tsentralnyi-chornomorets",
     t: "Klymov",

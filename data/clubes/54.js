@@ -275,7 +275,7 @@ window.__CLUBES["54"] = [
   },
   {
     i: "silkeborg_idrtsforen",
-    n: "Silkeborg ",
+    n: "Silkeborg",
     c: "Silkeborg Idrætsforening",
     e: "Silkeborg Stadion",
     t: "Troels Bech",

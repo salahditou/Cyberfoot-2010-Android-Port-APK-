@@ -209,6 +209,19 @@
       G.nombre = this.value;
       document.getElementById("empezar").disabled = !G.nombre.trim();
     };
+    document.getElementById("empezar").onclick = function () {
+      CF.cargar(
+        [
+          "juego.css",
+          "data/juego.js",
+          "juego.js",
+          "data/clubes/" + G.liga + ".js",
+        ],
+        function () {
+          CF.comenzar(G);
+        },
+      );
+    };
     A.querySelector('[data-a="v"]').onclick = function () {
       S = "menu";
       O = false;
@@ -216,9 +229,48 @@
       draw();
     };
   }
+  var CARGADOS = window.__CARGADOS || {};
+  function cargar(lista, fin) {
+    var n = lista.length;
+    lista.forEach(function (u) {
+      if (CARGADOS[u]) {
+        if (--n === 0) fin();
+        return;
+      }
+      var css = /\.css$/.test(u),
+        el = document.createElement(css ? "link" : "script");
+      if (css) {
+        el.rel = "stylesheet";
+        el.href = u;
+      } else el.src = u;
+      el.onload = el.onerror = function () {
+        CARGADOS[u] = 1;
+        if (--n === 0) fin();
+      };
+      document.head.appendChild(el);
+    });
+  }
+  window.CF = {
+    D: D,
+    A: A,
+    T: T,
+    E: E,
+    F: F,
+    U: U,
+    pantallas: {},
+    cargar: cargar,
+    idioma: function () {
+      return L;
+    },
+    ir: function (pantalla) {
+      S = pantalla;
+      draw();
+    },
+  };
   function draw() {
     document.body.className = S;
     if (S === "nueva") drawNueva();
+    else if (window.CF.pantallas[S]) window.CF.pantallas[S]();
     else drawMenu();
   }
   document.addEventListener("click", function () {
@@ -232,7 +284,10 @@
       draw();
     }
   });
-  draw();
+  cargar(["data/ligas.js"], function () {
+    D.ligas = window.__LIGAS || D.ligas;
+    draw();
+  });
   if ("serviceWorker" in navigator) {
     if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
       navigator.serviceWorker.getRegistrations().then(function (r) {

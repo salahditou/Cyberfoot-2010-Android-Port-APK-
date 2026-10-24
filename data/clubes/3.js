@@ -195,7 +195,7 @@ window.__CLUBES["3"] = [
   },
   {
     i: "werdenbremen_ale",
-    n: "Werder Bremen ",
+    n: "Werder Bremen",
     c: "Sportverein Werder Bremen",
     e: "Weserstadion",
     t: "Thomas Schaaf",

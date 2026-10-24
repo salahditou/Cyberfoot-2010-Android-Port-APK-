@@ -447,8 +447,8 @@ window.__CLUBES["39"] = [
     p: 39,
     f: 16,
     k: ["#0080FF", "#FFFF00", "#FF0000"],
-    s: 1,
-    m: 1,
+    s: 0,
+    m: 0,
     d: 2,
     j: [
       ["Abdul-Aziz", 9, 17, 0, 0, 1, 2, 1],
@@ -474,7 +474,7 @@ window.__CLUBES["39"] = [
   },
   {
     i: "aljaish_cat",
-    n: "Al Jaish ",
+    n: "Al Jaish",
     c: "Al Jaish Army",
     e: "Khalifa International",
     t: "Sheik Abdullah",
@@ -516,8 +516,8 @@ window.__CLUBES["39"] = [
     p: 39,
     f: 16,
     k: ["#A40000", "#FFFFFF", "#FF0000"],
-    s: 1,
-    m: 1,
+    s: 0,
+    m: 0,
     d: 2,
     j: [
       ["Mustafa", 39, 23, 0, 0, 0, 1, 1],
@@ -544,7 +544,7 @@ window.__CLUBES["39"] = [
   },
   {
     i: "almarkhiya_cat",
-    n: "Al-Markhiya ",
+    n: "Al-Markhiya",
     c: "Al-Markhiya Sports Club",
     e: "Markhiya Stadium",
     t: "Mubarak Al-Naemi",
@@ -580,7 +580,7 @@ window.__CLUBES["39"] = [
   },
   {
     i: "almesaimeer_cat",
-    n: "Al-Mesaimeer ",
+    n: "Al-Mesaimeer",
     c: "Al-Mesaimeer Sports Club",
     e: "Al-Mesaimeer Center",
     t: "Davi Russilan",
@@ -616,7 +616,7 @@ window.__CLUBES["39"] = [
   },
   {
     i: "almuaidar_cat",
-    n: "Al-Mu'aidar ",
+    n: "Al-Mu'aidar",
     c: "Al-Mu'aidar Sports Club",
     e: "Al-Mu'aidar Center",
     t: "Karin Hukisfaki",
@@ -650,7 +650,7 @@ window.__CLUBES["39"] = [
   },
   {
     i: "alshahaniya_cat",
-    n: "Al-Shahaniya ",
+    n: "Al-Shahaniya",
     c: "Al-Shahaniya Sports Club",
     e: "Shahaniya Arena",
     t: "Brian Couch",
@@ -756,7 +756,7 @@ window.__CLUBES["39"] = [
   },
   {
     i: "ruays_cat",
-    n: "Al Rayyan Ru'ays ",
+    n: "Al Rayyan Ru'ays",
     c: "Al Rayyan Ru'ays FC",
     e: "Ru'ays Center",
     t: "Abul Kall Alsaed",

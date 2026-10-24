@@ -40,7 +40,7 @@ window.__CLUBES["38"] = [
   },
   {
     i: "northyorkastroscan",
-    n: "North York Astros ",
+    n: "North York Astros",
     c: "North York Astros S. C. ",
     e: "Esther Shiner Stadium",
     t: "Bruno Ierullo",
@@ -296,7 +296,7 @@ window.__CLUBES["38"] = [
   },
   {
     i: "brantfordgalaxy_can",
-    n: "Brantford Galaxy ",
+    n: "Brantford Galaxy",
     c: "Brantford Galaxy SC",
     e: "Lions Park",
     t: "Lazo Dzepina",
