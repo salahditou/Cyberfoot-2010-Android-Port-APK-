@@ -360,6 +360,11 @@
       cab +
       filas +
       '</div><div class="j-pie">CyberFoot 2010 - www.cyberfoot.org</div></div>';
+    document.querySelector(".j-btn").onclick = function () {
+      CF.cargar(["tactica.css", "data/tactica.js", "tactica.js"], function () {
+        CF.tactica(J);
+      });
+    };
     var tb = document.querySelector(".j-tabla");
     tb.scrollTop = pos[0];
     tb.scrollLeft = pos[1];

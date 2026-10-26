@@ -1,4 +1,4 @@
-var C = "cf8",
+var C = "cf9",
   FILES = [
     "./",
     "index.html",
@@ -341,6 +341,14 @@ var C = "cf8",
     "data/clubes/190.js",
     "data/clubes/193.js",
     "data/clubes/195.js",
+    "tactica.js",
+    "tactica.css",
+    "data/tactica.js",
+    "assets/tac/camisa0.png",
+    "assets/tac/camisa1.png",
+    "assets/tac/camisa2.png",
+    "assets/tac/camisa3.png",
+    "assets/tac/campo.jpg",
   ];
 self.addEventListener("install", function (e) {
   e.waitUntil(
